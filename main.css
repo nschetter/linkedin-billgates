@@ -92,22 +92,30 @@ html {
 }
 
 .header__navigation {
-  width:515px;
+  width:700px;
   height: 75px;
   margin: 0 auto;
-  border-right: 1px solid #d3d3d3;
+  float:left;
+}
+
+.header__navigation ul {
+  width:555px;
+  margin:0 auto;
+  overflow:auto;
+  padding:0px;
 }
 
 .header__navigation ul li {
   float:left;
   list-style-type:none;
-  margin:0px;
+  margin:0px 25px;
 }
 
 .header__icons {
   float:left;
   height:75px;
   width:190px;
+  border-left: 1px solid #d3d3d3;
   border-right: 1px solid #d3d3d3;
 }
 
