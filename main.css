@@ -10,6 +10,21 @@ html {
 }
 
 .container{
-  width: 800px;
+  width: 1280px;
   margin: 0 auto;
+}
+
+.left-container {
+  width:310px;
+  float:left;
+}
+
+.center-container {
+  width:700px;
+  float:left;
+}
+
+.right-container {
+  width:270px;
+  float:left;
 }
