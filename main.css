@@ -34,17 +34,20 @@ html {
 
 .center-container {
   width:700px;
+  height:75px;
   float:left;
 }
 
 .right-container {
   width:270px;
+  height:75px;
   float:left;
 }
 
 .header__top-bar {
   height: 75px;
   float:left;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .header__linkedin {
@@ -52,6 +55,7 @@ html {
   width:80px;
   margin: 0 auto;
   height:75px;
+  border-right: 1px solid #d3d3d3;
 }
 
 .header__search {
@@ -60,6 +64,7 @@ html {
   width:230px;
   margin:0px;
   padding:0px;
+  border-right: 1px solid #d3d3d3;
 }
 
 .header__search-bar {
@@ -86,7 +91,29 @@ html {
   float:right;
 }
 
+.header__navigation {
+  width:515px;
+  height: 75px;
+  margin: 0 auto;
+  border-right: 1px solid #d3d3d3;
+}
+
 .header__navigation ul li {
   float:left;
   list-style-type:none;
+  margin:0px;
+}
+
+.header__icons {
+  float:left;
+  height:75px;
+  width:190px;
+  border-right: 1px solid #d3d3d3;
+}
+
+.header__profile-picture {
+  float:left;
+  width:80px;
+  margin: 0 auto;
+  height:75px;
 }
