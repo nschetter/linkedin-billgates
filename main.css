@@ -1,9 +1,14 @@
 html {
   box-sizing: border-box;
+  margin:0px;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  margin:0px;
 }
 
 .clear{
@@ -11,27 +16,32 @@ html {
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
-/* Helper CSS */
+/* End of Helper CSS */
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .container{
-  width: 1280px;
+  width: 1300px;
   margin: 0px;
 }
 
 .left-container {
   width:310px;
   float:left;
+  padding-left:30px;
+  background:gray;
 }
 
 .center-container {
   width:700px;
   float:left;
+  background:gray;
 }
 
 .right-container {
   width:270px;
   float:left;
+  padding-right:15px;
+  background:gray;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
@@ -40,8 +50,6 @@ html {
 
 .header__top-bar {
   margin:0px;
-  padding-top:15px;
-  padding-bottom:15px;
   padding-left:30px;
   padding-right:15px;
   border-bottom: 1px solid #d3d3d3;
@@ -65,13 +73,17 @@ html {
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__linkedin {
-  width:80px;
+  width:55px;
+  padding-top:28px;
+  padding-bottom:23px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__search {
   width:230px;
+  padding-top:20px;
+  padding-bottom:24px;
 }
 
 .header__search-bar {
@@ -101,34 +113,74 @@ html {
 
 .header__navigation {
   width:700px;
+  padding-top:30px;
+  padding-bottom:36px;
+}
+
+.header__navigation ul{
+  width:505px;
+  margin:0 auto;
 }
 
 .header__navigation ul li {
   float:left;
   list-style-type:none;
+  margin-right:28px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__icons {
   width:190px;
+  padding-top:28px;
+  padding-bottom:28px;
+}
+
+.header__icons ul{
+  padding-left:17px;
+  margin:0 auto;
 }
 
 .header__icons ul li{
+  display:inline-block;
   float:left;
   list-style-type:none;
+  margin:0px 10px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__profile-picture {
   width:80px;
+  padding-top:15px;
+  padding-bottom:15px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End top bar of header */
 /*---------------------------------------------------------------------------------------------------------------*/
 
+.header__bottom-bar {
+  padding:0px 30px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.header__bottom-bar__nav {
+  float:left;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.header__bottom-bar__nav__block {
+  padding-left:25px;
+  padding-right:30px;
+  padding-bottom:10px;
+}
+
+.header__bottom-bar__nav__block:hover {
+  border-bottom: 1px solid #2eabd4;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End bottom bar of header */
@@ -141,3 +193,7 @@ html {
 /*---------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------------------------------------------*/
+
+.profile{
+  
+}
