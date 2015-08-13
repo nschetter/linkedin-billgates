@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -9,26 +10,13 @@ html {
   clear: both;
 }
 
-.centered-vertical {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-/*NOTE: Only works with images -- to center divs, use margin: 0 auto*/
-.centered-horizontal {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-
 /*---------------------------------------------------------------------------------------------------------------*/
 /* Helper CSS */
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .container{
   width: 1280px;
-  margin: 0 auto;
+  margin: 0px;
 }
 
 .left-container {
@@ -38,13 +26,11 @@ html {
 
 .center-container {
   width:700px;
-  height:75px;
   float:left;
 }
 
 .right-container {
   width:270px;
-  height:75px;
   float:left;
 }
 
@@ -53,30 +39,39 @@ html {
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__top-bar {
-  height: 75px;
-  border-bottom: 1px solid #d3d3d3;
+  margin:0px;
   padding-top:15px;
   padding-bottom:15px;
   padding-left:30px;
   padding-right:15px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.top-bar-block {
+  padding:0px 15px;
+  border-right:1px solid #d3d3d3;
+  float:left;
+}
+
+.top-bar-block__first {
+  padding-left:0px;
+}
+
+.top-bar-block__last {
+  padding-right:0px;
+  border-right:0px solid #d3d3d3;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__linkedin {
-  float:left;
   width:80px;
-  height:75px;
-  border-right: 1px solid #d3d3d3;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .header__search {
-  float:left;
-  height:75px;
   width:230px;
-  border-right: 1px solid #d3d3d3;
 }
 
 .header__search-bar {
@@ -104,15 +99,31 @@ html {
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
+.header__navigation {
+  width:700px;
+}
 
+.header__navigation ul li {
+  float:left;
+  list-style-type:none;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
+.header__icons {
+  width:190px;
+}
 
+.header__icons ul li{
+  float:left;
+  list-style-type:none;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 
-
+.header__profile-picture {
+  width:80px;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End top bar of header */
