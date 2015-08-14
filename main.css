@@ -15,6 +15,10 @@ body {
   clear: both;
 }
 
+.clear-right{
+  clear: right;
+}
+
 .no-margins {
   margin:0px;
 }
@@ -204,20 +208,90 @@ body {
 
 .profile{
   width:260px;
-  padding-top:25px;
-  padding-left:27px;
-  padding-right:37px;
-  padding-bottom:25px;
   background:white;
 }
 
 .profile__profile {
   text-align:center;
+  padding-top:25px;
+  padding-left:27px;
+  padding-right:37px;
+  padding-bottom:25px;
+  border-bottom: 1px solid #d3d3d3;
 }
 
+#first-in-doge__container {
+  width:40px;
+  margin: 0 auto;
+}
+
+#first-in-doge {
+  width:24px;
+}
+
+#first-in__container {
+  float:right;
+  padding-right:33px;
+}
+
+.profile__buttons {
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.profile__follow {
+  color:white;
+  background:#2eabd4;
+  text-align:center;
+  color:#d3d3d3;
+  border-radius: 25px;
+  border: 1px solid #2eabd4;
+  width: 140px;
+  height: 40px;
+  margin:0 auto;
+  margin-bottom:10px;
+  padding-top:10px;
+  display: block;
+}
+
+.profile__follow p{
+  color:white;
+}
+
+.profile__connect {
+  color:#2eabd4;
+  background:white;
+  text-align:center;
+  color:#d3d3d3;
+  border-radius: 25px;
+  border: 1px solid #2eabd4;
+  width: 140px;
+  height: 40px;
+  margin:0 auto;
+  padding-top:10px;
+  display: block;
+}
+
+.profile__connect p{
+  color:#2eabd4;
+}
 /*---------------------------------------------------------------------------------------------------------------*/
 
+.profile__stats {
+  text-align:center;
+  border-top: 1px solid #d3d3d3;
+}
 
+.stats__connections {
+  border-right: 1px solid #d3d3d3;
+  float:left;
+  padding:20px 23px;
+}
+
+.stats__followers {
+  float:left;
+  padding:20px 34px;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End Profile Box */
