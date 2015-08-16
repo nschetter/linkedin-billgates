@@ -23,9 +23,22 @@ body {
   margin:0px;
 }
 
+.small-font {
+  font-size:10pt;
+}
+
+.left-float {
+  float:left;
+}
+
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End of Helper CSS */
 /*---------------------------------------------------------------------------------------------------------------*/
+
+.center-container__title-main {
+  padding:15px 25px;
+  border-bottom: 1px solid #d3d3d3;
+}
 
 .container{
   width: 1300px;
@@ -275,11 +288,13 @@ body {
 .profile__connect p{
   color:#2eabd4;
 }
+
 /*---------------------------------------------------------------------------------------------------------------*/
 
 .profile__stats {
   text-align:center;
   border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
 
 .stats__connections {
@@ -291,6 +306,28 @@ body {
 .stats__followers {
   float:left;
   padding:20px 34px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.profile__websites {
+  padding-left:23px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.profile__text-padding {
+  padding-top:2px;
+  padding-left:10px;
+}
+
+.profile__export {
+  padding-left:23px;
+  padding-top:20px;
+  padding-bottom:20px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
@@ -310,8 +347,14 @@ body {
   margin-bottom:20px;
 }
 
+.posts__content {
+  padding-top:25px;
+  padding-left:30px;
+}
+
 .posts__one-third {
   float:left;
+  padding-right:25px;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
