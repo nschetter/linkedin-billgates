@@ -366,20 +366,39 @@ body {
   margin-bottom:20px;
 }
 
-.background__main__image-divs {
-  padding-top:30px;
-  padding-left:30px;
+.background__category{
+  padding:30px;
+  padding-bottom:15px;
+}
+
+#clipboard {
+  margin-right:7px;
+}
+
+#lightbulb {
+  margin-right:10px;
+}
+
+.background__title-fix {
+  margin-left:15px;
+  margin-top:5px;
+}
+
+.summary__content {
+  padding-left:42px;
+  padding-right:40px;
+}
+
+.experience__content {
+  padding-left:70px;
+  padding-right:40px;
+}
+
+.experience__content__timeline {
   float:left;
 }
 
-.background__main__category {
-  padding-top:35px;
-}
-
-.background__main__content {
-  margin-left:20px;
-  float:left;
-}
+.
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End Background Box */
