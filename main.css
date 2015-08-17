@@ -39,6 +39,11 @@ body {
   color:#2eabd4;
 }
 
+.underline-gray {
+  color:#d3d3d3;
+  text-decoration:underline;
+}
+
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End of Helper CSS */
 /*---------------------------------------------------------------------------------------------------------------*/
@@ -566,6 +571,41 @@ body {
 .following {
   background:white;
   margin-bottom:45px;
+}
+
+.following__main__container {
+  padding-top:25px;
+  padding-bottom:20px;
+}
+
+.following__main__container__block {
+  float:left;
+}
+
+
+
+
+
+.following__main__footer {
+  padding-bottom:30px;
+}
+
+.see-all {
+  color:#2eabd4;
+  background:white;
+  text-align:center;
+  color:#d3d3d3;
+  border-radius: 25px;
+  border: 1px solid #2eabd4;
+  width: 140px;
+  height: 40px;
+  margin:0 auto;
+  padding-top:10px;
+  display: block;
+}
+
+.see-all p{
+  color:#2eabd4;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
