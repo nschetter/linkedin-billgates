@@ -445,6 +445,53 @@ body {
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
+
+.skills__content {
+  padding-top:20px;
+}
+
+.skills__number-circle {
+  color:#A8A6A6;
+  border-radius: 25px;
+  border: 1px solid gray;
+  width: 40px;
+  height: 40px;
+  margin-left: 40px;
+  display: block;
+  float:left;
+}
+
+.number-circle__text {
+  text-align:center;
+  line-height: 7px;
+}
+
+.skills__text {
+  float:left;
+  padding-left: 25px;
+}
+
+.skills__images {
+  float:right;
+}
+
+.skills__images__last {
+  color: black;
+  background-color: #d3d3d3;
+  border-radius: 25px;
+  border: 1px solid gray;
+  width: 48px;
+  height: 48px;
+  display: block;
+  float: right;
+  margin-left: 5px;
+}
+
+.skills__images__number-circle {
+  text-align:center;
+  line-height: 15px;
+}
+/*---------------------------------------------------------------------------------------------------------------*/
 /* End Background Box */
 /*---------------------------------------------------------------------------------------------------------------*/
 
