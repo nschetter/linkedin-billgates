@@ -366,6 +366,21 @@ body {
   margin-bottom:20px;
 }
 
+.background__main__image-divs {
+  padding-top:30px;
+  padding-left:30px;
+  float:left;
+}
+
+.background__main__category {
+  padding-top:35px;
+}
+
+.background__main__content {
+  margin-left:20px;
+  float:left;
+}
+
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End Background Box */
 /*---------------------------------------------------------------------------------------------------------------*/
