@@ -19,6 +19,10 @@ body {
   clear: right;
 }
 
+.clear-left {
+  clear: left;
+}
+
 .no-margins {
   margin:0px;
 }
@@ -29,6 +33,10 @@ body {
 
 .left-float {
   float:left;
+}
+
+.blue-text {
+  color:#2eabd4;
 }
 
 /*---------------------------------------------------------------------------------------------------------------*/
@@ -390,15 +398,27 @@ body {
 }
 
 .experience__content {
-  padding-left:70px;
+  padding-left:40px;
   padding-right:40px;
 }
 
-.experience__content__timeline {
+.timeline {
+  float:left;
+  height:300px;
+  padding-top: 5px;
+}
+
+.experience__content__container {
   float:left;
 }
 
-.
+.experience__content__container__text {
+  float:left;
+}
+
+.experience__content__container__image {
+  float:right;
+}
 
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End Background Box */
