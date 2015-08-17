@@ -515,6 +515,50 @@ body {
   margin-bottom:20px;
 }
 
+.recommendations__main {
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:25px;
+  padding-bottom:35px;
+}
+
+.recommendations__main__block {
+  float:left;
+}
+
+.recommendations__main__center-block {
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.recommendations__quote-container {
+  float:left;
+}
+
+.recommendations__quote {
+	border: 1px solid #d3d3d3;
+  width:200px;
+  padding-left:25px;
+  padding-right:30px;
+  padding-top:25px;
+  padding-bottom:30px;
+}
+
+.recommendations__person {
+  padding-top:20px;
+}
+
+.recommendations__person__picture {
+  float:left;
+  padding-top:5px;
+  padding-right:10px;
+}
+
+.recommendations__person__text {
+  float:left;
+  padding-top:10px;
+}
+
 /*---------------------------------------------------------------------------------------------------------------*/
 /* End Recommendations Box */
 /*---------------------------------------------------------------------------------------------------------------*/
