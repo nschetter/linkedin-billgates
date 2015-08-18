@@ -573,18 +573,44 @@ body {
   margin-bottom:45px;
 }
 
-.following__main__container {
-  padding-top:25px;
-  padding-bottom:20px;
+.following__container {
+  padding-left:10px;
+  padding-right:25px;
+  padding-top:30px;
 }
 
-.following__main__container__block {
-  float:left;
+.following__block {
+  display:inline-block;
+  padding-left:22px;
 }
 
+.following__image-div {
+  margin-bottom:15px;
+  border: 1px solid #d3d3d3;
+  width:140px;
+  height:90px;
+  text-align:center;
+}
 
+.following__image-div img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+.following__text {
+  margin-top:5px;
+  margin-bottom:35px;
+}
 
+.following__text__follow {
+  margin-top:5px;
+}
+
+#follow__fix {
+  margin-top:2px;
+  margin-left:2px;
+}
 
 .following__main__footer {
   padding-bottom:30px;
