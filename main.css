@@ -222,6 +222,7 @@ body {
   padding-left:25px;
   padding-right:30px;
   padding-bottom:10px;
+  text-decoration:none;
 }
 
 .header__bottom-bar__nav__block:hover {
